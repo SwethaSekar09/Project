@@ -19,6 +19,10 @@ public class Negative {
  Negative case1=new Negative();
  boolean result1= case1.posNeg(1,-1,false);
  System.out.println(result1);
+ Negative case2=new Negative();
+ boolean result2= case2.posNeg(-1,-1,false);
+ System.out.println(result2);
+
  }
 }
  
